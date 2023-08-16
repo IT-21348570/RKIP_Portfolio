@@ -5,8 +5,8 @@ import projImg2 from "../assets/img/project-img06.jpg";
 import projImg3 from "../assets/img/project-img08.jpg";
 
 import projImg4 from "../assets/img/project-img03.jpg";
-import projImg5 from "../assets/img/project-img2.png";
-import projImg6 from "../assets/img/project-img3.png";
+// import projImg5 from "../assets/img/project-img2.png";
+// import projImg6 from "../assets/img/project-img3.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -34,16 +34,6 @@ export const Projects = () => {
       title: "Train Reservation",
       description: "Design & Development",
       imgUrl: projImg4,
-    },
-    {
-      title: "",
-      description: "",
-      imgUrl: "",
-    },
-    {
-      title: "",
-      description: "",
-      imgUrl: "",
     },
     {
       title: "Online Shopping Mall",

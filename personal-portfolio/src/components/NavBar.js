@@ -99,8 +99,8 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/isharapramod-ranaweera/"><img src={navIcon1} alt="" /></a>
-                <a href="https://web.facebook.com/?stype=lo&jlou=AfdvTzGfz0SOWTKv-T_TnR4ptJmyufs9LmJLeQXoNO77FUcgdD-B0ONnv3Qapi0bx4HLPdjKqLOtYBTWEamfHzlu9oHas9k0isFWLrBXZnTMdQ&smuh=32498&lh=Ac-b4tJpsJrJUIdCAyk"><img src={navIcon2} alt="" /></a>
+                <a href="#"><img src={navIcon1} alt="" /></a>
+                <a href="#"><img src={navIcon2} alt="" /></a>
                 <a href="#"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>

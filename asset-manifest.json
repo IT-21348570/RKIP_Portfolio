@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/RKIP_Portfolio/static/css/main.7000b67d.css",
-    "main.js": "/RKIP_Portfolio/static/js/main.b16d53f1.js",
+    "main.css": "/RKIP_Portfolio/static/css/main.e04be958.css",
+    "main.js": "/RKIP_Portfolio/static/js/main.383de7a1.js",
     "static/js/787.fb771931.chunk.js": "/RKIP_Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/RKIP_Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/RKIP_Portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/project-img06.jpg": "/RKIP_Portfolio/static/media/project-img06.b262497a2cc5b4442871.jpg",
     "static/media/project-img04.jpg": "/RKIP_Portfolio/static/media/project-img04.65e051cb0d71a5209517.jpg",
+    "static/media/my.jpeg": "/RKIP_Portfolio/static/media/my.8765f6d83bf342a1048a.jpeg",
     "static/media/CentraNo2-Bold.ttf": "/RKIP_Portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/RKIP_Portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/RKIP_Portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -33,12 +34,12 @@
     "static/media/arrow2.svg": "/RKIP_Portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/RKIP_Portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/RKIP_Portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.7000b67d.css.map": "/RKIP_Portfolio/static/css/main.7000b67d.css.map",
-    "main.b16d53f1.js.map": "/RKIP_Portfolio/static/js/main.b16d53f1.js.map",
+    "main.e04be958.css.map": "/RKIP_Portfolio/static/css/main.e04be958.css.map",
+    "main.383de7a1.js.map": "/RKIP_Portfolio/static/js/main.383de7a1.js.map",
     "787.fb771931.chunk.js.map": "/RKIP_Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7000b67d.css",
-    "static/js/main.b16d53f1.js"
+    "static/css/main.e04be958.css",
+    "static/js/main.383de7a1.js"
   ]
 }

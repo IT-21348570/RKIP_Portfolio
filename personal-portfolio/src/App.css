@@ -760,4 +760,58 @@ body {
     transform: translateY(-20px)
   }
 } */
+.box {
+  vertical-align: middle;
+  border-style: solid;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: hsl(182, 25%, 30%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position:center ;
+  perspective: 1500px;
+  color: hsl(208, 100%, 88%);
+  box-shadow: 9px 16px 20px 13px hsla(0, 0%, 0%, 0.25);
+  transform: rotateX(0deg) rotateY(-12deg) rotateZ(4deg);
+  animation: card 1.5s ease-in-out forwards infinite alternate;
+  margin-top: 50px;
+
+}
+
+@keyframes card {
+  0% {
+    border-top-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    transform: rotateX(0deg) rotateY(-12deg) rotateZ(5deg);
+    color: black;
+    background-color: hsl(182, 25%, 30%);
+    color: hsl(0, 0%, 90%);
+  }
+  50% {
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    border-top-right-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(182, 25%, 35%);
+  }
+
+  100% {
+    border-top-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    transform: rotateX(0deg) rotateY(12deg) rotateZ(-5deg);
+    color: black;
+    background-color: hsl(182, 25%, 30%);
+    color: hsl(208, 100%, 90%);
+  }
+}
 

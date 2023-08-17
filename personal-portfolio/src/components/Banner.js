@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import headerImg from "../assets/img/img10.png";
+import headerImg from "../assets/img/my.jpeg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { HashLink } from "react-router-hash-link";
 import Contact from "./Contact";
 import "./Banner.css";
-// import { useHistory } from 'react-router-dom';
+// import './Myimage.css'
+
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -15,10 +16,9 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer"];
+  const toRotate = ["Student","Web Developer"];
   const period = 2000;
 
-  // const history = useHistory();
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -71,7 +71,7 @@ export const Banner = () => {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hi! I'm Ishara`}{" "}
+                    {`Hi! I'm Ishara`}<br></br>{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
@@ -98,21 +98,24 @@ export const Banner = () => {
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility className="atom-container">
-              <div class="atom">
+              {/* <div class="atom">
                 <div class="line line-1"></div>
                 <div class="line line-2"></div>
                 <div class="line line-3"></div>
-              </div>
-
-              {/* {({ isVisible }) => (
+              </div> */}
+              
+                   {({ isVisible }) => (
                 <div
                   className={
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                 >
+                  <div className="box">
                   <img src={headerImg} alt="Header Img" />
+                  </div>
                 </div>
-              )} */}
+              )}
+             
             </TrackVisibility>
           </Col>
         </Row>

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RKIP_Portfolio/static/css/main.e04be958.css",
+    "main.css": "/RKIP_Portfolio/static/css/main.3ebe962c.css",
     "main.js": "/RKIP_Portfolio/static/js/main.383de7a1.js",
     "static/js/787.fb771931.chunk.js": "/RKIP_Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/RKIP_Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -34,12 +34,12 @@
     "static/media/arrow2.svg": "/RKIP_Portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/RKIP_Portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/RKIP_Portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.e04be958.css.map": "/RKIP_Portfolio/static/css/main.e04be958.css.map",
+    "main.3ebe962c.css.map": "/RKIP_Portfolio/static/css/main.3ebe962c.css.map",
     "main.383de7a1.js.map": "/RKIP_Portfolio/static/js/main.383de7a1.js.map",
     "787.fb771931.chunk.js.map": "/RKIP_Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e04be958.css",
+    "static/css/main.3ebe962c.css",
     "static/js/main.383de7a1.js"
   ]
 }
